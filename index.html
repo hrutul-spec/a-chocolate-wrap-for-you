@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Chocolate Wrap for You</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- INTRO SCREEN -->
+  <section id="intro" class="screen active">
+    <h1>
+      Is this extraordinary talented, a green forest,<br>
+      super fast replier your bestfriend??
+    </h1>
+
+    <div class="buttons">
+      <button id="yesBtn">YES</button>
+      <button id="noBtn">NO</button>
+    </div>
+  </section>
+
+  <!-- MEMORY SCREEN -->
+  <section id="memories" class="screen">
+    <h2>🍫 A Chocolate Wrap for You 🍫</h2>
+
+    <div class="chocolate-box">
+      <div class="chocolate" onclick="openChocolate(this)">
+        <span>🍫</span>
+        <p class="hidden">That day we laughed for no reason at all.</p>
+      </div>
+
+      <div class="chocolate" onclick="openChocolate(this)">
+        <span>🍬</span>
+        <p class="hidden">You always reply fast. Always.</p>
+      </div>
+
+      <div class="chocolate" onclick="openChocolate(this)">
+        <span>🍭</span>
+        <p class="hidden">Best memories are simple ones with you.</p>
+      </div>
+    </div>
+
+    <div class="letters">
+      <h3>💌 A Little Note</h3>
+      <p>
+        This is not romantic.  
+        This is best-friend magic.  
+        Thank you for being my constant chaos and comfort.
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
